@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Ayush Kumar, a Future AI Engineer and Tech Enthusiast.">
+    <title>Ayush Kumar | Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Ayush</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero section" id="home">
+            <div class="hero__container container grid">
+                <div class="hero__content">
+                    <span class="hero__badge">FUTURE AI ENGINEER | TECH ENTHUSIAST</span>
+                    <h1 class="hero__title">Ayush <span class="hero__title-accent">Kumar</span></h1>
+                    
+                    <div class="hero__info-cards grid">
+                        <div class="info-card glow-box">
+                            <i class="fa-solid fa-code info-card__icon"></i>
+                            <div>
+                                <h3 class="info-card__label">Course</h3>
+                                <p class="info-card__value">Web Designing</p>
+                            </div>
+                        </div>
+                        <div class="info-card glow-box">
+                            <i class="fa-solid fa-microchip info-card__icon"></i>
+                            <div>
+                                <h3 class="info-card__label">Branch</h3>
+                                <p class="info-card__value">CSE (AI/ML)</p>
+                            </div>
+                        </div>
+                        <div class="info-card glow-box">
+                            <i class="fa-regular fa-user info-card__icon"></i>
+                            <div>
+                                <h3 class="info-card__label">Year</h3>
+                                <p class="info-card__value">1st Year</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="button button--white">
+                        Get In Touch <i class="fa-regular fa-paper-plane button__icon"></i>
+                    </a>
+                </div>
+                
+                <div class="hero__img-wrapper">
+                     <div class="hero__img-circle">
+                        <img src="profile.jpg"Ayush Kumar" class="hero__img">
+                     </div>
+                     <i class="fa-solid fa-microchip floating-icon float-1"></i>
+                     <i class="fa-solid fa-code floating-icon float-2"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-skills section" id="about">
+            <div class="about-skills__container container grid">
+                
+                <div class="about__card glow-box">
+                    <h2 class="section__title section__title--left">About Me</h2>
+                    <p class="about__description">
+                        Hello! I'm Ayush, a 1st-year B.Tech student specializing in Computer Science & Engineering (AI & ML). I have a strong passion for technology and I am currently exploring the fascinating world of Web Design and Artificial Intelligence.
+                    </p>
+                    <p class="about__description">
+                        My goal is to leverage my skills in coding and design to build innovative solutions that solve real-world problems.
+                    </p>
+                </div>
+                
+                <div class="skills__section">
+                    <h2 class="section__title section__title--left">Technical <span class="text-primary">Skills</span></h2>
+                    <div class="skills__list">
+                        <div class="skill__item">
+                            <div class="skill__bar-bg">
+                                <div class="skill__bar-fill" style="width: 90%;"></div>
+                            </div>
+                            <span class="skill__name">HTML & CSS</span>
+                        </div>
+                        <div class="skill__item">
+                            <div class="skill__bar-bg">
+                                <div class="skill__bar-fill" style="width: 65%;"></div>
+                            </div>
+                            <span class="skill__name">AI/ML Basics</span>
+                        </div>
+                        <div class="skill__item">
+                            <div class="skill__bar-bg">
+                                <div class="skill__bar-fill" style="width: 50%;"></div>
+                            </div>
+                            <span class="skill__name">React Basics</span>
+                        </div>
+                        <div class="skill__item">
+                            <div class="skill__bar-bg">
+                                <div class="skill__bar-fill" style="width: 75%;"></div>
+                            </div>
+                            <span class="skill__name">Python</span>
+                        </div>
+                        <div class="skill__item">
+                            <div class="skill__bar-bg">
+                                <div class="skill__bar-fill" style="width: 80%;"></div>
+                            </div>
+                            <span class="skill__name">C</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <h2 class="section__title">My Projects</h2>
+            <p class="section__subtitle">A selection of my recent work, showcasing my web development journey and interests in AI.</p>
+            
+            <div class="projects__container container grid">
+                <article class="project__card glow-box">
+                    <i class="fa-solid fa-table-columns project__icon"></i>
+                    <h3 class="project__title">Personal Portfolio</h3>
+                    <p class="project__description">A responsive portfolio website built with React and Tailwind CSS to showcase my skills and projects.</p>
+                    <a href="#" target="_blank" class="button button--link">
+                        View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+                <article class="project__card glow-box">
+                    <i class="fa-solid fa-calculator project__icon"></i>
+                    <h3 class="project__title">Interactive Calculator</h3>
+                    <p class="project__description">A fully functional calculator web application capable of handling basic arithmetic operations.</p>
+                    <a href="#" target="_blank" class="button button--link">
+                        View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+                <article class="project__card glow-box">
+                    <i class="fa-solid fa-terminal project__icon"></i>
+                    <h3 class="project__title">AI/ML Data Analysis</h3>
+                    <p class="project__description">A beginner-level Python project analyzing datasets using Pandas and visualizing trends.</p>
+                    <a href="#" target="_blank" class="button button--link">
+                        View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Get In Touch</h2>
+            <p class="section__subtitle">Feel free to reach out for collaborations or just a friendly hello!</p>
+            <div class="contact__container container grid">
+                <form action="" class="contact__form glow-box" id="contact-form">
+                    <div class="contact__content">
+                        <label for="name" class="contact__label">Name</label>
+                        <input type="text" id="name" class="contact__input" placeholder="Enter your name" required>
+                    </div>
+                    <div class="contact__content">
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="email" id="email" class="contact__input" placeholder="Enter your email" required>
+                    </div>
+                    <div class="contact__content">
+                        <label for="message" class="contact__label">Message</label>
+                        <textarea id="message" cols="0" rows="6" class="contact__input" placeholder="Enter your message" required></textarea>
+                    </div>
+                    
+                    <div>
+                        <button type="submit" class="button button--primary">
+                            Send Message <i class="fa-regular fa-paper-plane button__icon"></i>
+                        </button>
+                    </div>
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Ayush Kumar</h1>
+            <p class="footer__tagline">Future AI Engineer building innovative solutions.</p>
+            
+            <ul class="footer__social">
+                <a href="https://github.com" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </ul>
+            <span class="footer__copy">&#169; 2024 Ayush Kumar. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
